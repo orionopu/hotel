@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <H3>HOTEL ARAB</H3>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Service</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Login</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="sliderCOntainer">
+            <div class="coverCOntainer">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./hotel/img3.jpg" class="d-block  " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./hotel/img2.jpg" class="d-block " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./hotel/img1.jpg" class="d-block " alt="...">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cardContainer">
+        <!-- <div class="card">
+            <div class="cardimg">
+                <img style="width: 270px;" src="./hotel/img1.jpg" alt="">
+            </div>
+            <div class="cardContent">
+                <h3>single couple bed</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum possimus magni quam </p>
+                <h4>$230</h4>
+                <button>Booking</button>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="cardimg">
+                <img style="width: 270px;" src="./hotel/img1.jpg" alt="">
+            </div>
+            <div class="cardContent">
+                <h3>single couple bed</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum possimus magni quam </p>
+                <h4>$230</h4>
+                <button>Booking</button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="card">
+            <div class="cardimg">
+                <img style="width: 270px;" src="./hotel/img1.jpg" alt="">
+            </div>
+            <div class="cardContent">
+                <h3>single couple bed</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum possimus magni quam </p>
+                <h4>$230</h4>
+                <button>Booking</button>
+            </div>
+        </div> -->
+
+
+
+
+        <div class="card-group">
+            <div class="card">
+                <img src="./hotel/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content..</p>
+
+                    <button class="btn btn-success">Booking</button>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./hotel/img2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+
+                    </p>
+                    <button class="btn btn-success">Booking</button>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./hotel/img3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural leadaction.</p>
+                    <button class="btn btn-success">Booking</button>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+        <div class="card-group">
+            <div class="card">
+                <img src="./hotel/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content..</p>
+
+                    <button class="btn btn-success">Booking</button>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./hotel/img2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+
+                    </p>
+                    <button class="btn btn-success">Booking</button>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./hotel/img3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural leadaction.</p>
+                    <button class="btn btn-success">Booking</button>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="footerCOntainer">
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+        <div class=" my-5">
+
+            <footer style="background-color: rgb(201, 197, 197);">
+                <div class="container p-4">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="mb-3" style="letter-spacing: 2px; color: #7f4722;">shopping online</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">frequently asked questions</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">delivery</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#!" style="color: #4f4f4f;">where we deliver?</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="mb-3" style="letter-spacing: 2px; color: #7f4722;">git cards</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">frequently asked questions</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">delivery and payment</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">activate the card</a>
+                                </li>
+                                <li>
+                                    <a href="#!" style="color: #4f4f4f;">rules</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="mb-3" style="letter-spacing: 2px; color: #7f4722;">company</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">buy a gift card</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">history</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">return</a>
+                                </li>
+                                <li>
+                                    <a href="#!" style="color: #4f4f4f;">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <h5 class="mb-3" style="letter-spacing: 2px; color: #7f4722;">diamond club</h5>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">registration</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">application</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a href="#!" style="color: #4f4f4f;">about program</a>
+                                </li>
+                                <li>
+                                    <a href="#!" style="color: #4f4f4f;">rules</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2020 Copyright:
+                    <a class="text-dark" href="https://opu.com/">orionopu.com</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+
+        </div>
+        <!-- End of .container -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

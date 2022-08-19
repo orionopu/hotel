@@ -1,0 +1,38 @@
+
+.carousel-inner{
+    height: 90vh;
+}
+
+.carousel-inner img{
+    width: 100%;
+}
+/* .card{
+  width:25%;
+  text-align: center;
+  box-shadow: 3px 2px 10px 4px black;
+  padding: 20px;
+} */
+.cardContainer{
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.navbar{
+    background-color: orange;
+}
+.navbar-collapse ul li{
+    margin-right: 30px;
+}
+.navbar-collapse ul {
+    margin-left: 8rem;
+}
+.navbar-collapse ul li a{
+    font-size: 22px;
+}
+.navbar-collapse ul li a:hover{
+    background-color: rgb(54, 100, 236);
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+
+}
